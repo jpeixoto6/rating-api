@@ -12,8 +12,8 @@ RUN npm install
 # Copy project files into the image
 COPY . .
 
-# Expose port 3000, which is what the node process is listening to
-EXPOSE 3000
+# Expose port 8080, which is what the node process is listening to
+EXPOSE 8080
 
 # Set the startup command to 'npm start'
 CMD [ "npm", "start"] 
